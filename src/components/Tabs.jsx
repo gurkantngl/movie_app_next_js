@@ -13,7 +13,7 @@ const Tabs = () => {
             url : "popular"
         },
         {
-            name : 'En Son Gelenler',
+            name : 'En Son',
             url : "latest"
         },
         {
