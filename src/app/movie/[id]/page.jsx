@@ -17,7 +17,7 @@ const Page = async ({params}) => {
                 <div className='text-4xl font-bold my-3'>{movieDetail?.title}</div>
                 <div className='w-1/2'>{movieDetail?.overview}</div>
                 <div className='my-3'>{movieDetail?.vote_average}</div>
-                <div className='border w-24 p-3 rounded-md text-center text-lg cursor-pointer'>Trail</div>
+                <div className='my-2 border w-32 hover:bg-white hover:text-black p-2 rounded-md text-center text-lg cursor-pointer'>Trail</div>
             </div>
         </div>
     )
